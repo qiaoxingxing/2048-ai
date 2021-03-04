@@ -471,6 +471,19 @@ hr {
   font-size: 35px;
 }
 
+.tile.tile-4096,.tile.tile-8192  {
+  color: #ec1a1a;
+  background: #47453f;
+  box-shadow: 0 0 30px 10px rgba(109, 97, 54, 0.556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+  font-size: 30px;
+}
+.tile.tile-16384,.tile.tile-32768,.tile.tile-65536  {
+  color: #e2e60a;
+  background: #47453f;
+  box-shadow: 0 0 30px 10px rgba(109, 97, 54, 0.556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+  font-size: 25px;
+}
+
 @media screen and (max-width: 480px) {
   .tile.tile-2048 {
     font-size: 15px;

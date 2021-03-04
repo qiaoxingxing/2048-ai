@@ -114,6 +114,7 @@ Grid.prototype.clone = function() {
 // Set up the initial tiles to start the game with
 Grid.prototype.addStartTiles = function () {
   for (var i=0; i<this.startTiles; i++) {
+    // this.insertTile(new Tile({x:1,y:1},16384));
     this.addRandomTile();
   }
 };
@@ -206,9 +207,9 @@ Grid.prototype.move = function (direction) {
 
           // The mighty 2048 tile
           //qxx
-          if (merged.value === 2048 *8) {
-            won = true;
-          }
+          // if (merged.value === 2048 *8) {
+          //   won = true;
+          // }
         } else {
           //if (debug) {
             //console.log(cell);
