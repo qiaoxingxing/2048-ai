@@ -149,5 +149,3 @@ AI.prototype.translate = function(move) {
   }[move];
 }
 
-
-exports.AI = AI

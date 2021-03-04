@@ -1,7 +1,7 @@
 console.debug("grid");
 function Grid(size) {
   this.size = size;
-  this.startTiles   = 0;
+  this.startTiles   = 2;
 
   this.cells = [];
 
@@ -116,15 +116,10 @@ Grid.prototype.addStartTiles = function () {
   for (var i=0; i<this.startTiles; i++) {
     this.addRandomTile();
   }
-  // qxx
-  // let tile = new Tile({x:0,y:0},2048)
-  // this.insertTile(tile);
-  // this.insertTile(new Tile({x:1,y:0},1024));
 };
 
 // Adds a tile in a random position
 Grid.prototype.addRandomTile = function () {
-  return; //qxx 不插入
   if (this.cellsAvailable()) {
     var value = Math.random() < 0.9 ? 2 : 4;
     //var value = Math.random() < 0.9 ? 256 : 512;
@@ -590,5 +585,3 @@ Grid.prototype.isWin = function() {
 //}
 
 
-
-exports.Grid = Grid 
