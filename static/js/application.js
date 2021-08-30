@@ -1,4 +1,4 @@
-animationDelay = 1000; //等待毫秒数
+animationDelay = 200; //等待毫秒数
 minSearchTime = 100;  
 
 
