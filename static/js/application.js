@@ -1,5 +1,5 @@
-animationDelay = 0;
-minSearchTime = 100;  //qxx 搜寻时间影响结果
+animationDelay = 1000; //等待毫秒数
+minSearchTime = 100;  
 
 
 // Wait till the browser is ready to render the game (avoids glitches)
